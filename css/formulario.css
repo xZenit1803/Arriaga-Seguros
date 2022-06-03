@@ -1,0 +1,92 @@
+/* Formulario */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+.form{
+    background-color:#005555;
+    width: 50%;
+    max-width: 500px;
+    max-height: 650px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow:rgba(0, 0, 0, 0.8) 10px 5px 10px -5px;
+}
+
+.form_title{
+    font-size: 1.2rem;
+    margin-bottom: .5em;
+    font-family: 'Poppins';
+}
+
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    font-family: 'Poppins';
+}
+
+.form_group{
+    position: relative;
+    --color: rgb(255, 255, 255);
+}
+
+.form_input{
+    width: 100%;
+    background: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+}
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #A1E3D8;
+}
+
+.form_label{
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(12px);
+    transition: transform .5s, color .3s;
+}
+
+.form_submit{
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-weight: 100;
+    font-size: 1rem;
+    padding: .8em .4em;
+    border: none;
+    border-radius: .5em;
+    justify-content: center;
+}
+
+.form_line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #A1E3D8;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+
+.form_input:focus ~ .form_line,
+.form_input:not(:placeholder-shown) ~ .form_line{
+    transform: scale(1);
+}

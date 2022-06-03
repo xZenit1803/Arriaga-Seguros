@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body{
+	font-family: 'Poppins';
+	background-color: rgb(255, 255, 255);
+}
+
+
+/* Servicios */
+.container-card{
+	width: 80%;
+	display: flex;
+	max-width: 2000px;
+	margin: auto;
+	text-align: justify;
+}
+
+.card{
+	width: 100%;
+	margin: 10px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-2%);
+}
+.card img{
+	max-width: 250px;
+	max-height: 250px;
+	margin-top: 10px;
+	margin-left: 110px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h5{
+	margin-bottom: 15px;
+    font-size: 20px;
+	color: #444;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+/* cartas 2 */
+
+.container-card2{
+	width: 100%;
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+	text-align: justify;
+}
+
+.card2{
+	width: 100%;
+	margin: 10px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+.card2:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-5%);
+}
+
+.card2 img{
+	max-width: 250px;
+	max-height: 250px;
+	margin-top: 10px;
+	margin-left: 110px;
+}
+
+.card2 .contenido-card2{
+	padding: 15px;
+	text-align: center;
+}
+
+.card2 .contenido-card2 h5{
+	margin-bottom: 15px;
+    font-size: 20px;
+	color: #444;
+}
+
+.card2 .contenido-card2 p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 15px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+/* cartas 2 final */
+
+/* Us */
+.contenedor-columnas{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 50px;
+	text-align: justify;
+	justify-content: center;
+}
+
+.columnx3{
+	width: 50%;
+	float: left;
+	padding: 30px 100px 20px 20px;
+	box-sizing: border-box;
+}
+
+.contenedor-columnas img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 100px;
+}
+
+.columnx3 p{
+	font-size: 20px;
+	margin-right: 20px;
+	padding: 0px 0px 0px 150px;
+	text-align: justify;
+}
+
+/* Us fin */
+
+/* Datos de contacto */
+
+.dos-columnas{
+	margin-top: 50px;
+}
+
+.datos{
+	float: left;
+	width: 25%;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 7px;
+	color:#999;
+    font-family: 'Poppins';
+}
+
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+}
+
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+}
+
+.datos-contacto li i{
+	color: #005555;
+	font-size: 60px;
+}
+
+.limpia{
+	clear: both;
+}
+
+/* Datos de contacto fin*/
+
+
+/* Scrollbar */
+::-webkit-scrollbar{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track{
+	background: rgba(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb{
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding: 5px;
+}
+

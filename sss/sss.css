@@ -1,0 +1,78 @@
+.sss {
+	height: 0;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.ssslide {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	overflow: hidden;
+}
+
+.ssslide img {
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.sssnext, .sssprev {
+	width: 25px;
+	height: 100%;
+	margin-left:700px;
+	margin-right:700px;
+	position: absolute;
+	top: 0;
+	background: url('images/arr.png') no-repeat;
+}
+
+.sssprev {
+	left: 3%;
+	background-position: 0 50%;
+}
+
+.sssnext {
+	right: 3%;
+	background-position: -26px 50%;
+}
+
+.sssprev:hover, .sssnext:hover {
+	cursor: pointer;
+}
+
+.testimonios{
+	clear: both;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.slider-1 img{
+	margin: auto;
+	padding-bottom: 20px;
+	width: 250px;
+}
+
+.slider-1 h2{
+	font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: bold;
+    color: #005555;
+}
+
+.slider-1 h3{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: lighter;
+}

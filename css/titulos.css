@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+.wap{
+	width: 90%;
+	margin: auto;
+	clear: both;
+}
+
+.bienvenidos{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.wap h2{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: bold;
+    color: #005555;
+}
+
+.bienvenidos h3{
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: lighter;
+}
+
+.mapa{
+    padding: 16px 0px 0px 0px;
+}
