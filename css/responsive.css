@@ -105,7 +105,7 @@
     .card img{
         margin-top: 10px;
         max-width: 500px;
-        margin-right: 100px;
+        margin-right: 1000px;
 	}
 
     .container-card2{
@@ -115,7 +115,8 @@
 
     .card2 img{
         margin-top: 10px;
-        margin-right: 100px;
+        max-width: 500px;
+        margin-right: 1000px;
 	}
 }
 
