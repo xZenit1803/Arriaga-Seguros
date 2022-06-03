@@ -79,6 +79,46 @@
 	}
 }
 
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation:landscape) 
+{
+    .container-card{
+		flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+	}
+
+	.card{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+	}
+
+    .card2{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+	}
+
+    .card img{
+        margin-top: 10px;
+        max-width: 200px;
+        margin-right: 100px;
+	}
+
+    .container-card2{
+		flex-wrap: wrap;
+        text-align: justify;
+	}
+
+    .card2 img{
+        margin-top: 10px;
+        margin-right: 100px;
+	}
+}
+
 @media only screen and (max-width:480px){
     .datos{
         margin-top: 10px;
