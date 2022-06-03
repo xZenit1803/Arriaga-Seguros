@@ -81,7 +81,7 @@
 
 @media only screen
   and (min-device-width : 768px)
-  and (max-device-width : 1024px)
+  and (max-device-width : 1180px)
   and (orientation:landscape) 
 {
     .container-card{
@@ -91,21 +91,21 @@
 	}
 
 	.card{
-        width: 100%;
+        width: 80%;
         text-align: center;
         justify-content: center;
 	}
 
     .card2{
-        width: 100%;
+        width: 80%;
         text-align: center;
         justify-content: center;
 	}
 
     .card img{
         margin-top: 10px;
-        max-width: 500px;
-        margin-right: 1000px;
+        max-width: 200px;
+        margin-right: 100px;
 	}
 
     .container-card2{
@@ -115,8 +115,8 @@
 
     .card2 img{
         margin-top: 10px;
-        max-width: 500px;
-        margin-right: 1000px;
+        max-width: 200px;
+        margin-right: 100px;
 	}
 }
 
