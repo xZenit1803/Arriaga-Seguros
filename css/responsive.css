@@ -80,7 +80,7 @@
 }
 
 @media only screen
-  and (min-device-width : 768px)
+  and (min-device-width : 820px)
   and (max-device-width : 1180px)
   and (orientation:landscape) 
 {
@@ -188,7 +188,7 @@
     .card img{
         margin-top: 10px;
         max-width: 500px;
-        margin-right: 50px;
+        margin-right: 90px;
 	}
 
     .container-card2{
@@ -199,7 +199,7 @@
     .card2 img{
         margin-top: 10px;
         max-width: 500px;
-        margin-right: 50px;
+        margin-right: 90px;
 	}
 
     .datos{
@@ -218,7 +218,8 @@
         color:#999;
         font-family: 'Poppins';
         font-size: 18px;
-        padding-bottom: 10px;
+        padding:10px;
+        margin-left: 50px;
     }
 
     .datos2{
@@ -227,16 +228,21 @@
         color:#999;
         font-family: 'Poppins';
         font-size: 18px;
-        padding-bottom: 10px;
+        padding:10px;
     }
 }
 
 @media only screen and (max-width:480px){
-    .datos{
+    .datos1{
         margin-top: 10px;
+        padding: 10px;
         width: 100%;
     }
-
+    .datos2{
+        margin-top: 10px;
+        padding: 10px;
+        width: 50%;
+    }
     .form{
         width: 95%;
         margin: 0;
