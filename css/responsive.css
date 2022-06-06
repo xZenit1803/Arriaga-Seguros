@@ -163,7 +163,7 @@
 }
 
 @media only screen
-  and (min-device-width : 768px)
+  and (min-device-width : 820px)
   and (max-device-width : 1180px)
   and (orientation:portrait) 
 {
@@ -188,7 +188,7 @@
     .card img{
         margin-top: 10px;
         max-width: 500px;
-        margin-right: 90px;
+        margin-right: 100px;
 	}
 
     .container-card2{
@@ -199,7 +199,7 @@
     .card2 img{
         margin-top: 10px;
         max-width: 500px;
-        margin-right: 90px;
+        margin-right: 100px;
 	}
 
     .datos{
@@ -426,4 +426,3 @@
     }
   }
     
- 
