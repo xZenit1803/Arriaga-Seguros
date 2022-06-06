@@ -144,7 +144,7 @@ body{
 	margin-top: 50px;
 }
 
-.datos{
+.datos1{
 	float: left;
 	width: 25%;
     margin-top: 50px;
@@ -154,17 +154,42 @@ body{
     font-family: 'Poppins';
 }
 
-.datos-contacto{
+.datos2{
+	float: right;
+	width: 25%;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 7px;
+	color:#999;
+    font-family: 'Poppins';
+}
+
+.datos-contacto1{
 	list-style: none;
 	text-align: center;
 }
 
-.datos-contacto li{
+.datos-contacto1 li{
 	color: #444;
 	padding-bottom: 5px;
 }
 
-.datos-contacto li i{
+.datos-contacto1 li i{
+	color: #005555;
+	font-size: 60px;
+}
+
+.datos-contacto2{
+	list-style: none;
+	text-align: center;
+}
+
+.datos-contacto2 li{
+	color: #444;
+	padding-bottom: 5px;
+}
+
+.datos-contacto2 li i{
 	color: #005555;
 	font-size: 60px;
 }

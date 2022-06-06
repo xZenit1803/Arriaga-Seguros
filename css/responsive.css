@@ -118,6 +118,117 @@
         max-width: 200px;
         margin-right: 100px;
 	}
+
+    .columnx3{
+        width: 90%;
+        float: left;
+        padding: 30px;
+        text-align: justify;
+    }
+    
+    .pie-pagina .grupo-1 .box figure img{
+        cursor: default;
+        height: 250px;
+        width: 250px;
+        margin-left: 10px;
+        padding-bottom: -1px;
+    }
+
+    
+    .form{
+        width: 100%;
+        margin-left: 250px;
+    }
+
+    
+    .datos1{
+        width: 40%;
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 7px;
+        color:#999;
+        font-family: 'Poppins';
+    }
+    
+    .datos2{
+
+        width: 25%;
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-left: 7px;
+        color:#999;
+        font-family: 'Poppins';
+    }
+
+}
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1180px)
+  and (orientation:portrait) 
+{
+    .container-card{
+		flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+	}
+
+	.card{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+	}
+
+    .card2{
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+	}
+
+    .card img{
+        margin-top: 10px;
+        max-width: 500px;
+        margin-right: 50px;
+	}
+
+    .container-card2{
+		flex-wrap: wrap;
+        text-align: justify;
+	}
+
+    .card2 img{
+        margin-top: 10px;
+        max-width: 500px;
+        margin-right: 50px;
+	}
+
+    .datos{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+        margin-left: 130px;
+    }
+
+    .datos1{
+        float: left;
+        width: 30%;
+        color:#999;
+        font-family: 'Poppins';
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .datos2{
+        float: right;
+        width: 30%;
+        color:#999;
+        font-family: 'Poppins';
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width:480px){
