@@ -34,6 +34,7 @@ body{
 	max-height: 250px;
 	margin-top: 10px;
 	margin-left: 110px;
+	object-fit: cover;
 }
 .card .contenido-card{
 	padding: 15px;
@@ -83,6 +84,7 @@ body{
 	max-height: 250px;
 	margin-top: 10px;
 	margin-left: 110px;
+	object-fit: cover;
 }
 
 .card2 .contenido-card2{
